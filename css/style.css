@@ -391,3 +391,7 @@ ol {
 	margin-top: 1px;
 	background: #cbcbcb;
 }
+
+.social-links a:hover {
+	color: #f90085;
+}
