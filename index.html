@@ -1,138 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Kimberly Garcia | Web Designer - Front-end Developer | Online Portfolio of Kim Garcia</title>
 	<meta charset="UTF-8">
-	<meta name="description" content="Kim Garcia | Web Designer - Front-end Developer">
-	<meta name="keywords" content="Kimberly, Garcia, Website, Design, Development, Responsive Web Design, Wordpress, Philippines">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="google-site-verification" content="LSTUxQ9QI6HJAPhHqCPNPog0JveAf-oqw_NEBeMkNPs" />
+	<!-- Meta and other shenanigans -->
+	<title>Kimberly Garcia | Web Designer - Front-end Developer </title>
+	<meta name="description" content="Online Portfolio of Kimberly Garcia">
+	<meta name="keywords" content="Kimberly, Garcia, Website, Design, Development, Front-end, Responsive Web Design, Philippines">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="revisit-after" content="25 days">
 	<meta name="robots" content="index, follow"/>
-
-	<!-- Adsense -->
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128916001-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-128916001-1');
-	</script>
-
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<script>
-		(adsbygoogle = window.adsbygoogle || []).push({
-			google_ad_client: "ca-pub-3806738419464203",
-			enable_page_level_ads: true
-		});
-	</script>
-
-	<!-- Favicon -->   
-	<link href="img/favicon.ico" rel="shortcut icon"/>
+	<meta name="google-site-verification" content="LSTUxQ9QI6HJAPhHqCPNPog0JveAf-oqw_NEBeMkNPs" />
 	
-	<!-- Fonts --> 
-	<script src="https://kit.fontawesome.com/dd475e1afd.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap" rel="stylesheet">
 
-	<!-- Scripts -->
-	<script
-	  	src="https://code.jquery.com/jquery-3.4.1.js"
-	  	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-	  	crossorigin="anonymous"></script>
-	<script>
-		$(window).on('load', function() { 
-			/*------------------
-				Preloder
-			--------------------*/
-			$(".loader").fadeOut(); 
-			$("#preloder").delay(400).fadeOut("slow");
-
-		});
-	</script>
-	<script 
-		src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
-		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
-		crossorigin="anonymous">
-	</script>
-
-	<!-- Stylesheets -->
-	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Scripts and stuffs -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" crossorigin>
 	<link rel="stylesheet" href="css/style.css"/>
-
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+	<script async src="css/typingtext.js"></script>
+	
 </head>
 <body>
-	<!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
+	<div class="main animate__animated animate__fadeIn animate__slower" >
+		<div class="menu" align="right">
+			<ul>
+				<li><a href="https://www.linkedin.com/in/ktgarcia/" alt="LinkedIn page" target="_blank"  data="haslink">About Me</a></li>
+				<li><a href="https://github.com/lainette?tab=repositories" target="_blank" data="haslink">Current Projects</a></li>
+				<li><a href="https://github.com/lainette?tab=projects" target="_blank" data="haslink">Past Projects</a></li>
+				<li><a href="matilto:hello@garcia.kim" data="haslink">E-mail Me</a></li>
+			</ul>	 
+		</div>
+		<div class="content">
+		 <h3 id="typedtext"></h3>
+		</div>
 	</div>
-
-	<!-- Header section start -->
-	<header class="header-section">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="site-logo">
-						<h2><a href="https://garcia.kim/">garcia.kim</a></h2>
-						<p>Online Portfolio of Kim Garcia</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	<!-- Header section end -->
-
-	<!-- Hero section start -->
-	<section class="hero-section spad">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xl-10 offset-xl-1">
-					<div class="row">
-						<div class="col-lg-8">
-							<div class="hero-text">
-								<h2>Kimberly Garcia</h2>
-								<p>I'm a web designer and front-end developer who enjoys minimalist designs and effective UI/UX designs.</p>
-								<br>
-								<p>Now taking on a new venture in SEO and Digital advertising — starting Google Ads.</p>
-							</div>
-							<div class="hero-info">
-								<!-- <h2>General Info</h2> -->
-								<ul>
-									<li>Living and working in <a class="map" href="https://www.google.com/maps/@14.5516999,121.0505157,15z"><i class="fas fa-map-marker"></i></a> Taguig, Philippines.</li>
-									<li>Contact me directly <a class="email" href="mailto:hello@garcia.kim">hello@garcia.kim</a></li>
-									<li>
-										<div class="social-link-warp">
-											<div class="social-links">
-												<a href="https://garcia.kim"><i class="fas fa-grin-wink"></i></a>
-												<a href="https://blog.garcia.kim"><i class="fab fa-wordpress-simple"></i></a>
-												<a>&nbsp;<i class="far fa-window-minimize" style="line-height:30px;"></i></i>&nbsp;</a>
-												<a href="https://www.linkedin.com/in/ktgarcia"><i class="fab fa-linkedin-in"></i></a>
-												<a href="https://github.com/lainette"><i class="fab fa-github-alt"></i></a>
-												<a href="https://bit.ly/kgarcia-resume2019"><i class="fas fa-file"></i></a>									
-											</div>
-										</div>
-							
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-2">
-							<figure class="hero-image">
-								&nbsp;
-							</figure>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Hero section end -->
-
-	<!-- Footer section start -->
-	<footer>
-		
-	</footer>
-	<!-- Footer section end -->
+	<div class="footer animate__animated animate__fadeIn animate__slower" >
+		<hr>
+		<h5>Kimberly Garcia</h5>
+		<p class="some-tagline">QA Specialist — Website Designer — Advertising Graduate</p>
+	</div>
 </body>
 </html>
