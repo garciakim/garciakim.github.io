@@ -14,7 +14,7 @@ body,p,span { font-size: 12px; font-size: 1.2rem; }
 
 /* elements */
 body { 
-	background:url("../img/'blackorchid_@2X.jpg") #101010 repeat;
+	background:url("../img/blackorchid_@2X.jpg") #101010 repeat;
 	 color: #fff;
 	 height: 100%;
 	/*overflow: hidden;*/
