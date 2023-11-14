@@ -13,7 +13,7 @@ const errMesjj = "You know how they say 'curiosity killed the cat'? Well, appare
     for (let i = 0; i < 3; i++) {
       const [id, node_id, name, full_name, owner, private, html_url, description, fork, url, created_at, updated_at, pushed_at, git_url, ssh_url, clone_url, svn_url, homepage, stargazers_count, watchers_count, language, has_issues, has_projects, has_downloads, has_wiki, has_pages, forks_count, mirror_url, archived, disabled, open_issues_count, license, forks, open_issues, watchers, default_branch, temp_clone_token, network_count, subscribers_count] = Object.values(json[i]);
       const nwdate = new Date(json[i].pushed_at).toLocaleString("default", { month: "long" });
-      const html = `<div class="fb-33"><h5><a href="${html_url}"><i class="fa-solid fa-minus"></i> ${name}</a></h5><h6>${nwdate}&nbsp;Project</h6><br/><p>${description}</p></div>`;
+      const html = `<div class="fb-33"><h5><a href="https://${username}.github.io/${name}"><i class="fa-solid fa-minus"></i> ${name}</a></h5><h6>${nwdate}&nbsp;Project</h6><br/><p>${description}</p></div>`;
       projList.insertAdjacentHTML("beforeend", html);
     }
     console.log("List applied!");
